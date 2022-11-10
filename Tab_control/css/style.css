@@ -1,0 +1,31 @@
+body{
+    font-family: Arial,sans-serif;
+}
+ul.tablinks{
+    list-style: none;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    display: inline-block;
+}
+ul.tablinks li{
+    display: inline;
+    padding: 10px 20px;
+    background: lightgray;
+    font-weight: bold;
+    box-shadow: 2px 0 2px rebeccapurple;
+}
+ul.tablinks li.active{
+    color: white;
+    background: gray;
+}
+.show{display: block;}
+.hide{display: none;}
+.active{color: red; font-weight: bold;}
+.tabcontents{
+    margin: 10px;
+    border: 3px solid black;
+    padding: 0 10px;
+}
+ul.tablinks li:hover{
+    background: gray;
+}

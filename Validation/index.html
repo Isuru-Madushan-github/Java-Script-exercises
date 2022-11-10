@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Validation</title>
+    <script src="script.js"></script>
+    <style>
+        input{width: 25%;
+            margin-bottom: 5px;
+        }
+        button{
+            background: gray;
+            border: 1px solid black;
+            color: white;
+            width: 15%;
+        }
+        h2{
+            color: red;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Java Script Validation practices</h1>
+
+    <h2>Enter Your age below</h2>
+
+    <h2>You must be greater than 18 of your age. If not you will be unqualified</h2>
+
+    <input id="age" type="number" min="19" max="25" placeholder="Enter your age" required><br>
+    <p id="demo" class="demo"></p>
+    <button onclick="validateAge()">Enter</button>
+    
+</body>
+</html>

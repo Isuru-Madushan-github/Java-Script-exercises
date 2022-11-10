@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+#clock{
+    width: 200px;
+    margin: 0 auto;
+}
+@media screen and (max-width:1200px) {
+    .container{width: 100%;}
+}

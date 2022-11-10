@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down Navigation</title>
+    <script defer src="js/script.js"></script>
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Select your favourite Search Engine</h2>
+
+    <select name="" id="navigate">
+        <option value="">Please Select</option>
+        <option value="https://www.google.com">Google</option>
+        <option value="https://yahoo.com">Yahoo</option>
+        <option value="https://bing.com">Bing</option>
+        <option value="https://duckduckgo">Duck Duck Go</option>
+    </select>
+
+
+
+
+    <h2>Select Your Province:</h2>
+    <select name="" id="province">
+        <option value="ddf">Select Province</option>
+        <option value="western">Western</option>
+        <option value="southern">Southern</option>
+        <option value="northern">Northern</option>
+        <option value="northcentral">North Central</option>
+        <option value="northwestern">North Westen</option>
+        <option value="uva">Uva</option>
+        <option value="central">Central</option>
+        <option value="sabaragamuwa">Sabaragamuwa</option>
+        <option value="eastern">Eastern</option>
+    </select>
+
+    <h2>Select Your District</h2>
+
+    <select style="width: 125px;" class="show"  name="" id="space"></select>
+
+    <select style="width: 125px;" class="hide" id="western" name="">
+        <option value="colombo">Colombo</option>
+        <option value="gampaha">Gampaha</option>
+        <option value="kaluthara">Kaluthara</option>
+    </select>
+
+    <select style="width: 125px;" class="hide" id="southern" name="">
+        <option value="galle">Galle</option>
+        <option value="hambanthota">Hambanthota</option>
+        <option value="Matara">Matara</option>
+    </select>
+
+    <select style="width: 125px;" class="hide" id="northern" name="">
+        <option value="jaffna">Jaffna</option>
+        <option value="kilinochchi">Kilinochchi</option>
+        <option value="Mannar">Mannar</option>
+        <option value="mullaitivu">Mullaitivu</option>
+        <option value="vavuniya">Vavuniya</option>
+    </select>
+
+    <select style="width: 125px;" class="hide" id="northcentral" name="">
+        <option value="anuradhapura">Anuradhapura</option>
+        <option value="polonnaruwa">Polonnaruwa</option>
+    </select>
+
+    <select style="width: 125px;" class="hide" id="northwestern" name="">
+        <option value="kurunegala">Kurunegala</option>
+        <option value="puttalam">Puttalam</option>
+    </select>
+
+    <select style="width: 125px;" class="hide" id="uva" name="">
+        <option value="badulla">Badulla</option>
+        <option value="monaragala">Monaragala</option>
+    </select>
+
+    <select style="width: 125px;" class="hide" id="central" name="">
+        <option value="kandy">Kandy</option>
+        <option value="matale">Matale</option>
+        <option value="nuwaraeliya">Nuwara Eliya</option>
+    </select>
+
+    <select style="width: 125px;" class="hide" id="sabaragamuwa" name="">
+        <option value="kegalle">kegalle</option>
+        <option value="rathnapura">Rathnapura</option>
+    </select>
+
+    <select style="width: 125px;" class="hide" id="eastern" name="">
+        <option value="ampara">Ampara</option>
+        <option value="Batticaloa">Batticaloa</option>
+        <option value="trincomalee">Trincomalee</option>
+    </select>
+
+</body>
+</html>
